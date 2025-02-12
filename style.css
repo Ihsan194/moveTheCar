@@ -1,0 +1,24 @@
+#carContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#roadImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#carImage {
+    position: absolute;
+    bottom: 10%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 30%;
+    height: auto;
+}
